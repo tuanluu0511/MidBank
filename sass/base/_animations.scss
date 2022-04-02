@@ -1,0 +1,11 @@
+@keyframes card {
+  100% {
+    transform: rotate(5deg) translate(0, 10px);
+  }
+}
+
+@keyframes scale {
+  100% {
+    transform: scale(1.2);
+  }
+}

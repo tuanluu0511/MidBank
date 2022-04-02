@@ -21,10 +21,58 @@
     ></script>
     <link rel="stylesheet" href="css/style.css" />
   </head>
-  <body>
-    <header class="header">
-      <div class="header__img">IMG</div>
-      <div class="header__content">Content</div>
+  <body class="container">
+    <nav class="nav">
+      <img
+        class="nav__bg-blur"
+        src="./images/img-bgblur.png"
+        alt=""
+        srcset="./images/img-bgblur.png 2x"
+      />
+
+      <img src="./images/logo.png" alt="Logo" class="nav__logo" />
+      <ul class="nav__list">
+        <li class="nav__item"><a href="#" class="nav__link">Product</a></li>
+        <li class="nav__item"><a href="#" class="nav__link">About</a></li>
+        <li class="nav__item"><a href="#" class="nav__link">FAQ</a></li>
+        <li class="nav__item"><a href="#" class="nav__link">Service</a></li>
+        <li class="nav__item"><a href="#" class="nav__link">Blog</a></li>
+      </ul>
+      <a href="#" class="btn--menu btn--outline nav__menu">Menu</a>
+      <a href="#" class="btn btn__sign-in btn--full nav__sign-in"
+        ><span>Sign in</span>
+        <img src="./images/icon-arrow-right.svg" alt="Sign in" />
+      </a>
+    </nav>
+
+    <div class="header__img">
+      <div class="header__card">
+        <img srcset="./images/img-mastercard.png 2x" alt="" />
+      </div>
+      <div class="header__circle">
+        <img srcset="./images/img-headerbg.png 2x" alt="" />
+      </div>
+    </div>
+
+    <header class="header__content">
+      <h1 class="heading__primary header__heading">
+        Stronger Banking, Greater Service
+      </h1>
+      <p class="header__text">
+        Get the most accurate market data, alerts, conversions, tools and more —
+        all within the same app.
+      </p>
+
+      <div class="header__cta">
+        <a href="#" class="btn btn--start btn--full header__start"
+          >Start Transaction</a
+        >
+        <a href="#" class="btn btn--download btn--outline header__download">
+          <img srcset="./images/icon-download.png 2x" alt="Download icon" />
+
+          <span> Download App </span>
+        </a>
+      </div>
     </header>
   </body>
 </html>

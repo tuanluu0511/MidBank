@@ -1,0 +1,20 @@
+body {
+  color: white;
+  font-family: $font-montserrat;
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 1;
+  background: $color-primary;
+  -webkit-font-smoothing: antialiased;
+  scroll-behavior: smooth;
+}
+
+.heading__primary {
+  font-weight: bold;
+  font-size: 5.8rem;
+  line-height: calc(75 / 58);
+
+  @include respond(tab-land) {
+    font-size: 5rem;
+  }
+}

@@ -1,0 +1,16 @@
+.container {
+  max-width: 120rem;
+  display: grid;
+  grid-template-columns: repeat(
+    6,
+    [col-start] minmax(min-content, 1fr) [col-end]
+  );
+  grid-template-rows: minmax(min-content, 9rem) calc(100vh - 9rem);
+
+  @include respond(tab-port) {
+    padding: 0;
+    grid-template-rows: minmax(min-content, 9rem) calc((100vh - 9rem) / 2) calc(
+        (100vh - 9rem) / 2
+      );
+  }
+}

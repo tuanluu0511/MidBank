@@ -1,0 +1,58 @@
+.btn {
+  &,
+  &:link,
+  &:visited {
+    padding: 1.7rem 2.6rem;
+    font-family: $font-poppins;
+    align-content: center;
+    border-radius: 100px;
+    display: inline-block;
+    text-align: center;
+    font-size: 1.8rem;
+    color: $color-white;
+  }
+
+  &--full {
+    background: linear-gradient(180deg, #3975f2 0%, #0643c4 100%);
+  }
+
+  &--outline {
+    border: 1.5px solid rgba(255, 255, 255, 0.3);
+  }
+
+  &__sign-in:link,
+  &__sign-in:visited {
+    font-weight: 600;
+    display: grid;
+    grid-template-columns: max-content max-content;
+    gap: 0.8rem;
+    align-items: center;
+  }
+
+  &--menu:link,
+  &--menu:visited {
+    padding: 1.7rem 2.6rem;
+    font-family: $font-poppins;
+    align-content: center;
+    border-radius: 100px;
+    text-align: center;
+    font-size: 1.8rem;
+    color: $color-white;
+  }
+
+  &--start:link,
+  &--start:visited {
+    font-weight: 600;
+    display: grid;
+  }
+
+  &--download:link,
+  &--download:visited {
+    font-weight: 500;
+    opacity: 0.5;
+    display: grid;
+    grid-template-columns: max-content max-content;
+    gap: 0.8rem;
+    align-items: center;
+  }
+}
